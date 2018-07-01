@@ -1,0 +1,32 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android.popularmovies1.MainActivity">
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/about"
+        android:orderInCategory="90"
+        android:title="@string/action_about"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/sort_mostpopular"
+        android:title="@string/action_sort_popular"
+        android:orderInCategory="0"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/sort_mostrated"
+        android:title="@string/action_sort_highestrated"
+        android:orderInCategory="1"
+        app:showAsAction="never"/>
+
+</menu>
