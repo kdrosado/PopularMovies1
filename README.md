@@ -2,8 +2,14 @@
 A Udacity project part of the Android Nanodegree that displays popular movies.
 
 # API Key
-To run this app you will need to create a free account at The Movie DB. Then you can 
-request an API key at The Movie DB. Once you have an API key go to file DownloadTask.java, 
+To run this app you will need to create a free account at The Movie DB by going to the following link:
+https://developers.themoviedb.org/3/getting-started/introduction
+
+Then you can request an API key at The Movie DB by going to the following link:
+
+https://www.themoviedb.org/faq/api
+
+Once you have an API key go to file DownloadTask.java, 
 which can be found in /app/src/main/java. Then insert on line 15:
 
 
